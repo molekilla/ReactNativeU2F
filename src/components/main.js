@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -18,9 +18,10 @@ const styles = StyleSheet.create({
         marginBottom: 5,
     },
 });
+import { LoginComponent } from './login';
 export default class ReactNativeU2F extends React.Component {
     render() {
-        return (React.createElement(View, {style: styles.container}, React.createElement(Text, {style: styles.welcome}, "Welcome to React Native!"), React.createElement(Text, {style: styles.instructions}, "To get started, edit index.android.js"), React.createElement(Text, {style: styles.instructions}, "Shake or press menu button for dev menu")));
+        return (React.createElement(View, {style: styles.container}, React.createElement(LoginComponent, null)));
     }
 }
 //# sourceMappingURL=main.js.map

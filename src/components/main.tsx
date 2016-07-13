@@ -27,21 +27,15 @@ const styles:any = StyleSheet.create({
   },
 });
 
+import { LoginComponent } from './login';
+
 export interface HelloProps { compiler: string; framework: string; }
 
 export default class ReactNativeU2F extends React.Component<HelloProps, {}> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Shake or press menu button for dev menu
-        </Text>
+        <LoginComponent></LoginComponent>
       </View>
     );
   }
