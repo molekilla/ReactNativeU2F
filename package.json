@@ -8,7 +8,8 @@
   "dependencies": {
     "react": "^15.2.0",
     "react-dom": "^15.2.0",
-    "react-native": "0.29.0"
+    "react-native": "0.29.0",
+    "react-native-material-kit": "^0.3.2"
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
