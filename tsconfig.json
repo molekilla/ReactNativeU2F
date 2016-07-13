@@ -5,10 +5,11 @@
         "noImplicitAny": true,
         "experimentalDecorators": true,
         "preserveConstEnums": true,
-        "outDir": "dist",
-        "module": "commonjs",
-        "rootDir": "src",
+        
+        "module": "es2015",
+        
         "sourceMap": true
+        
     },
     "filesGlob": [
         "typings/**/*.d.ts",
@@ -16,6 +17,7 @@
         "src/**/*.tsx"
     ],
     "exclude": [
+        ".vscode",
         "node_modules"
     ],
     "compileOnSave": false
