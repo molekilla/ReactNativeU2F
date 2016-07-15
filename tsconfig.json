@@ -5,11 +5,9 @@
         "noImplicitAny": true,
         "experimentalDecorators": true,
         "preserveConstEnums": true,
-        
         "module": "es2015",
-        
-        "sourceMap": true
-        
+        "sourceMap": true,
+        "allowJs": true
     },
     "filesGlob": [
         "typings/**/*.d.ts",
