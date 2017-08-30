@@ -64,7 +64,14 @@ export class LoginComponent extends React.Component {
         });
     }
     render() {
-        return (React.createElement(View, {style: styles.container}, React.createElement(Text, {style: styles.title}, "react-native-u2f"), React.createElement(Text, {style: styles.label}, "Username"), React.createElement(TextInput, {returnKeyType: 'next', style: styles.inputBox, autoFocus: true, onChangeText: value => this.setState({ email: value })}), React.createElement(Text, {style: styles.label}, "Password"), React.createElement(TextInput, {secureTextEntry: true, style: styles.inputBox, onChangeText: value => this.setState({ password: value })}), React.createElement(TouchableHighlight, {activeOpacity: 1, underlayColor: "rgb(210, 230, 255)", style: [styles.row, styles.block], onPress: () => this.onLogin()}, React.createElement(Text, {style: styles.button}, "Login"))));
+        return (React.createElement(View, { style: styles.container },
+            React.createElement(Text, { style: styles.title }, "react-native-u2f"),
+            React.createElement(Text, { style: styles.label }, "Username"),
+            React.createElement(TextInput, { returnKeyType: 'next', style: styles.inputBox, autoFocus: true, onChangeText: value => this.setState({ email: value }) }),
+            React.createElement(Text, { style: styles.label }, "Password"),
+            React.createElement(TextInput, { secureTextEntry: true, style: styles.inputBox, onChangeText: value => this.setState({ password: value }) }),
+            React.createElement(TouchableHighlight, { activeOpacity: 1, underlayColor: "rgb(210, 230, 255)", style: [styles.row, styles.block], onPress: () => this.onLogin() },
+                React.createElement(Text, { style: styles.button }, "Login"))));
     }
 }
 //# sourceMappingURL=login.js.map

@@ -21,7 +21,8 @@ const styles = StyleSheet.create({
 import { LoginComponent } from './login';
 export default class ReactNativeU2F extends React.Component {
     render() {
-        return (React.createElement(View, {style: styles.container}, React.createElement(LoginComponent, null)));
+        return (React.createElement(View, { style: styles.container },
+            React.createElement(LoginComponent, null)));
     }
 }
 //# sourceMappingURL=main.js.map

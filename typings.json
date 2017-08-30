@@ -1,8 +1,0 @@
-{
-  "globalDependencies": {
-    "axios": "registry:dt/axios#0.9.1+20160629101425",
-    "react": "registry:dt/react#0.14.0+20160630100702",
-    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
-    "react-native": "registry:dt/react-native#0.27.0+20160619030006"
-  }
-}

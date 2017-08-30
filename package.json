@@ -7,14 +7,19 @@
   },
   "dependencies": {
     "axios": "^0.13.0",
-    "react": "^15.2.0",
-    "react-dom": "^15.2.0",
-    "react-native": "0.29.0",
-    "react-native-material-kit": "^0.3.2"
+    "react": "^15.5.0",
+    "react-dom": "^15.6.0",
+    "react-native": "0.47.0",
+    "react-native-material-kit": "0.4.0"
   },
   "devDependencies": {
+    "@types/react": "^15.0.38",
+    "@types/react-addons-css-transition-group": "^15.0.3",
+    "@types/react-dom": "^15.5.1",
+    "@types/react-redux": "^4.4.47",
+    "@types/react-native": "^0.47.8",
     "concurrently": "^2.0.0",
     "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.8.2"
+    "ts-loader": "^1.0.0"
   }
 }
